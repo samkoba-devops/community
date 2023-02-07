@@ -12,6 +12,6 @@ jobs:
           organization: keymeta-networks
           label: github-invitation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: "![image](https://user-images.githubusercontent.com/51391473/138764839-1011988e-66f2-4427-a8fc-e0380971df29.gif)<br><b>Invitation sent to join the GitHub Organization. Welcome to Keymeta Networks 🎉</b><br><br>Please check your mail to accept the invitation sent by the bot! 🤖<br><h1>About us</h1> Keymeta is a base of developers in various specialties that are interconnected with each other like a network."
+          comment: "![image](https://avatars.githubusercontent.com/u/99186009?s=200&v=4)<br><b>Invitation sent to join the GitHub Organization. Welcome to Keymeta Networks 🎉</b><br><br>Please check your mail to accept the invitation sent by the bot! 🤖<br><h1>About us</h1> Keymeta is a base of developers in various specialties that are interconnected with each other like a network."
         env:
           INVITE_TOKEN: ${{ secrets.DEV_INVITE_TOKEN }}
